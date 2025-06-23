@@ -2,7 +2,7 @@
 echo Creating release zip for Random-Datapack...
 
 REM version number
-set "version=1.1.0"
+set "version=1.0.0"
 
 REM Create temporary directory outside current folder
 set "tempDir=%~dp0..\temp_release"
