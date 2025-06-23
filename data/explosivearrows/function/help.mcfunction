@@ -1,0 +1,15 @@
+# ExplosiveArrows Help Command
+tellraw @s [{"text":"=== ExplosiveArrows Help ===","color":"gold","bold":true}]
+tellraw @s [{"text":"Available Commands:","color":"yellow"}]
+tellraw @s [{"text":"• ","color":"gray"},{"text":"/function explosivearrows:help","color":"aqua"},{"text":" - Show this help menu","color":"white"}]
+tellraw @s [{"text":"• ","color":"gray"},{"text":"/function explosivearrows:chat_on","color":"aqua"},{"text":" - Enable explosion messages","color":"white"}]
+tellraw @s [{"text":"• ","color":"gray"},{"text":"/function explosivearrows:chat_off","color":"aqua"},{"text":" - Disable explosion messages","color":"white"}]
+tellraw @s [{"text":"• ","color":"gray"},{"text":"/function explosivearrows:toggle_chat","color":"aqua"},{"text":" - Toggle explosion messages","color":"white"}]
+tellraw @s [{"text":"--------------------","color":"gold","bold":true}]
+tellraw @s [{"text":"Features:","color":"yellow"}]
+tellraw @s [{"text":"• All arrows explode on impact","color":"white"}]
+tellraw @s [{"text":"• Works on blocks and entities","color":"white"}]
+tellraw @s [{"text":"• Configurable chat messages","color":"white"}]
+# tellraw @s ""
+tellraw @s [{"text":"Made with ❤ by ThatMasterCoder","color":"red"}]
+tellraw @s [{"text":"======================","color":"gold","bold":true}]
